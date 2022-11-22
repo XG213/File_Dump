@@ -5,6 +5,10 @@ LimeOS1.Parent = game.Players.LocalPlayer.PlayerGui.LimeOS
 LimeOS1.Name = "LimeOS1"
 LimeOS1.Size = UDim2.new(1, 0, 1, 0)
 
+local UIs = Instance.new("Folder")
+UIs.Parent = LimeOS1
+UIs.Name = "UIs"
+
 --AIS
 
 -- Instances:
