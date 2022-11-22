@@ -500,7 +500,7 @@ local function NEQZ_fake_script() -- CommandFrame.AutoScroll
 		script.Parent.CanvasPosition = Vector2.new(0,99999)
 	end)
 end
-coroutine.wrap(NEQZ_fake_script)()
+--coroutine.wrap(NEQZ_fake_script)()
 local function IUOAC_fake_script() -- Shell.CoExe 
 	local script = Instance.new('LocalScript', Shell)
 
@@ -610,7 +610,7 @@ local function IUOAC_fake_script() -- Shell.CoExe
 	end)
 	
 end
-coroutine.wrap(IUOAC_fake_script)()
+--coroutine.wrap(IUOAC_fake_script)()
 
 --Errors
 
@@ -771,7 +771,7 @@ local function OVOLHX_fake_script() -- OK.LocalScript
 		Frame.Visible = false
 	end)
 end
-coroutine.wrap(OVOLHX_fake_script)()
+--coroutine.wrap(OVOLHX_fake_script)()
 local function YJCXU_fake_script() -- Error.DragSript 
 	local script = Instance.new('LocalScript', Error)
 
@@ -816,7 +816,7 @@ local function YJCXU_fake_script() -- Error.DragSript
 		end
 	end)
 end
-coroutine.wrap(YJCXU_fake_script)()
+--coroutine.wrap(YJCXU_fake_script)()
 
 -- Instances:
 
@@ -973,7 +973,7 @@ local function FLPFQ_fake_script() -- OK.LocalScript
 		Frame.Visible = false
 	end)
 end
-coroutine.wrap(FLPFQ_fake_script)()
+--coroutine.wrap(FLPFQ_fake_script)()
 local function SYDS_fake_script() -- Info.DragSript 
 	local script = Instance.new('LocalScript', Info)
 
@@ -1018,7 +1018,7 @@ local function SYDS_fake_script() -- Info.DragSript
 		end
 	end)
 end
-coroutine.wrap(SYDS_fake_script)()
+--coroutine.wrap(SYDS_fake_script)()
 
 -- Instances:
 
@@ -1175,7 +1175,7 @@ local function NCJUMCR_fake_script() -- OK.LocalScript
 		Frame.Visible = false
 	end)
 end
-coroutine.wrap(NCJUMCR_fake_script)()
+--coroutine.wrap(NCJUMCR_fake_script)()
 local function XTINQ_fake_script() -- Warning.DragSript 
 	local script = Instance.new('LocalScript', Warning)
 
@@ -1220,7 +1220,7 @@ local function XTINQ_fake_script() -- Warning.DragSript
 		end
 	end)
 end
-coroutine.wrap(XTINQ_fake_script)()
+--coroutine.wrap(XTINQ_fake_script)()
 
 --HomeScreen
 
@@ -2344,7 +2344,7 @@ local function AMUQR_fake_script() -- Time.TimeScript
 		wait(1)
 	end
 end
-coroutine.wrap(AMUQR_fake_script)()
+--coroutine.wrap(AMUQR_fake_script)()
 local function SFBQ_fake_script() -- Date.DateScript 
 	local script = Instance.new('LocalScript', Date)
 
@@ -2368,7 +2368,7 @@ local function SFBQ_fake_script() -- Date.DateScript
 	
 	--Sunday, October 31
 end
-coroutine.wrap(SFBQ_fake_script)()
+--coroutine.wrap(SFBQ_fake_script)()
 
 -- Instances:
 
@@ -3506,7 +3506,7 @@ local function AMUQR_fake_script() -- Time.TimeScript
 		wait(1)
 	end
 end
-coroutine.wrap(AMUQR_fake_script)()
+--coroutine.wrap(AMUQR_fake_script)()
 local function SFBQ_fake_script() -- Date.DateScript 
 	local script = Instance.new('LocalScript', Date)
 
@@ -3530,7 +3530,7 @@ local function SFBQ_fake_script() -- Date.DateScript
 	
 	--Sunday, October 31
 end
-coroutine.wrap(SFBQ_fake_script)()
+--coroutine.wrap(SFBQ_fake_script)()
 
 -- Instances:
 
@@ -4151,7 +4151,7 @@ local function PLXQ_fake_script() -- BootCircle.LocalScript
 	loadingValue.Changed:Connect(Changed)
 	Changed()
 end
-coroutine.wrap(PLXQ_fake_script)()
+--coroutine.wrap(PLXQ_fake_script)()
 
 --ModScreen
 
