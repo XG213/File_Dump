@@ -2,8 +2,8 @@
 
 local LimeOS1 = Instance.new("Frame")
 LimeOS1.Parent = game.Players.LocalPlayer.PlayerGui.LimeOS
-LimeOS.Name = "LimeOS1"
-LimeOS.Size = UDim2.new(1, 0, 1, 0)
+LimeOS1.Name = "LimeOS1"
+LimeOS1.Size = UDim2.new(1, 0, 1, 0)
 
 --AIS
 
