@@ -1,3 +1,10 @@
+--starter stuff
+
+local LimeOS1 = Instance.new("Frame")
+LimeOS1.Parent = game.Players.LocalPlayer.PlayerGui.LimeOS
+LimeOS.Name = "LimeOS1"
+LimeOS.Size = UDim2.new(1, 0, 1, 0)
+
 --AIS
 
 -- Instances:
@@ -4574,8 +4581,3 @@ MainBackFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 MainBackFrame.BorderSizePixel = 0
 MainBackFrame.Size = UDim2.new(1, 0, 1, 0)
 MainBackFrame.ZIndex = 0
-
-local LimeOS1 = Instance.new("Frame")
-LimeOS1.Parent = game.Players.LocalPlayer.PlayerGui.LimeOS
-LimeOS.Name = "LimeOS1"
-LimeOS.Size = UDim2.new(1, 0, 1, 0)
