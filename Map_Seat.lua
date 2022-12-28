@@ -12,4 +12,4 @@ seat.Rotation = Vector3.new(0, -90, 0)
 seat.Size = Vector3.new(1.8, 0.2, 1)
 seat.TopSurface = Enum.SurfaceType.SmoothNoOutlines
 seat.Transparency = 1
-seat.Parent = workspace.Map.Chair
+seat.Parent = workspace
