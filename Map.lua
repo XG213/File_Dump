@@ -2769,10 +2769,12 @@ table.Parent = map
 
 function pc()
 local monitor = Instance.new("Model")
+monitor.Anchored = true
 monitor.Name = "Monitor"
 monitor.WorldPivot = CFrame.new(10.0797939, 6.08650398, 31.2550087, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 
 local part = Instance.new("Part")
+part.Anchored = true
 part.Name = "Part"
 part.Anchored = true
 part.BottomSurface = Enum.SurfaceType.Smooth
@@ -2786,6 +2788,7 @@ part.TopSurface = Enum.SurfaceType.Smooth
 part.Parent = monitor
 
 local part1 = Instance.new("Part")
+part1.Anchored = true
 part1.Name = "Part"
 part1.BottomSurface = Enum.SurfaceType.Smooth
 part1.CFrame = CFrame.new(10.0798035, 4.55613613, 31.3413429, 1.71364391e-07, 0, -0.999996126, 0, 0.999996185, 0, 1, 0, 1.71365173e-07)
@@ -2798,6 +2801,7 @@ part1.TopSurface = Enum.SurfaceType.Smooth
 part1.Parent = monitor
 
 local screen = Instance.new("Part")
+screen.Anchored = true
 screen.Name = "screen"
 screen.BottomSurface = Enum.SurfaceType.Smooth
 screen.CFrame = CFrame.new(10.5116434, 6.442204, 31.2550049, 1.71364391e-07, 0, -0.999996126, 0, 0.999996185, 0, 1, 0, 1.71365173e-07)
