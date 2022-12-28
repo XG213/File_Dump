@@ -1511,9 +1511,6 @@ part99.Size = Vector3.new(0.4, 0.6, 16.4)
 part99.TopSurface = Enum.SurfaceType.Smooth
 part99.Parent = small_House
 
-end
-first()
-
 local part100 = Instance.new("Part")
 part100.Name = "Part"
 part100.Anchored = true
@@ -2603,6 +2600,9 @@ union.Size = Vector3.new(2.2, 0.2, 2.2)
 union.Parent = chair
 
 chair.Parent = map
+
+end
+first()
 
 local ultimate_GAMING_pc_setup = Instance.new("Model")
 ultimate_GAMING_pc_setup.Name = "Ultimate GAMING pc setup"
