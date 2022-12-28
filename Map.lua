@@ -1512,6 +1512,7 @@ part99.TopSurface = Enum.SurfaceType.Smooth
 part99.Parent = small_House
 
 end
+first()
 
 local part100 = Instance.new("Part")
 part100.Name = "Part"
