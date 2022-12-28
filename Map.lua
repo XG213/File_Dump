@@ -2155,7 +2155,7 @@ part144.Anchored = true
 part144.BackSurface = Enum.SurfaceType.Universal
 part144.BottomSurface = Enum.SurfaceType.Universal
 part144.BrickColor = BrickColor.new("Really black")
-part144.CFrame = CFrame.new(0.199854374, 6.59912777, 19.5991859, 0.999991298, 7.45059907e-08, -9.59232693e-14, -4.47041089e-08, 0.999999762, -4.88489491e-15, -5.96042504e-08, -1.15462195e-14, 0.999991536)
+part144.CFrame = CFrame.new(0.199854374, 6.59912777, 19.5991859, 1, 4.47044997e-08, 5.96047656e-08, -4.47044997e-08, 1, 7.10530962e-15, -5.96047656e-08, -9.76991095e-15, 1)
 part144.Color = Color3.fromRGB(17, 17, 17)
 part144.Position = Vector3.new(0.2, 6.6, 19.6)
 part144.Size = Vector3.new(0.2, 3.8, 0.2)
@@ -2200,7 +2200,7 @@ part146.Anchored = true
 part146.BackSurface = Enum.SurfaceType.Universal
 part146.BottomSurface = Enum.SurfaceType.Universal
 part146.BrickColor = BrickColor.new("Really black")
-part146.CFrame = CFrame.new(5.99976063, 6.59912968, 19.5991554, 0.999991119, 7.45059907e-08, -9.9475983e-14, -4.47041089e-08, 0.999999762, -6.21714772e-15, -5.96042327e-08, -1.15462195e-14, 0.999991357)
+part146.CFrame = CFrame.new(5.99976063, 6.59912968, 19.5991554, 1, 4.47045103e-08, 5.96047656e-08, -4.47045103e-08, 1, 7.10530835e-15, -5.96047656e-08, -9.76991095e-15, 1)
 part146.Color = Color3.fromRGB(17, 17, 17)
 part146.Position = Vector3.new(6, 6.6, 19.6)
 part146.Size = Vector3.new(0.2, 3.8, 0.2)
@@ -2459,5 +2459,554 @@ floor.Material = Enum.Material.Grass
 floor.Size = Vector3.new(100, 1, 100)
 floor.TopSurface = Enum.SurfaceType.Smooth
 floor.Parent = map
+
+local chair = Instance.new("Model")
+chair.Name = "Chair"
+chair.WorldPivot = CFrame.new(6.79965115, 3.60001016, 30.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+
+local part163 = Instance.new("Part")
+part163.Name = "Part"
+part163.Anchored = true
+part163.BrickColor = BrickColor.new("Brown")
+part163.CFrame = CFrame.new(5.79965496, 3.60000348, 31.1001301, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+part163.Color = Color3.fromRGB(124, 92, 70)
+part163.Material = Enum.Material.Wood
+part163.Orientation = Vector3.new(0, 180, 0)
+part163.Position = Vector3.new(5.8, 3.6, 31.1)
+part163.Rotation = Vector3.new(-180, 0, -180)
+part163.Size = Vector3.new(0.2, 4.2, 0.2)
+part163.Parent = chair
+
+local part164 = Instance.new("Part")
+part164.Name = "Part"
+part164.Anchored = true
+part164.BrickColor = BrickColor.new("Brown")
+part164.CFrame = CFrame.new(5.79965496, 3.60000348, 29.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+part164.Color = Color3.fromRGB(124, 92, 70)
+part164.Material = Enum.Material.Wood
+part164.Orientation = Vector3.new(0, 180, 0)
+part164.Position = Vector3.new(5.8, 3.6, 29.1)
+part164.Rotation = Vector3.new(-180, 0, -180)
+part164.Size = Vector3.new(0.2, 4.2, 0.2)
+part164.Parent = chair
+
+local part165 = Instance.new("Part")
+part165.Name = "Part"
+part165.Anchored = true
+part165.BrickColor = BrickColor.new("Brown")
+part165.CFrame = CFrame.new(5.79965496, 5.60000229, 30.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+part165.Color = Color3.fromRGB(124, 92, 70)
+part165.Material = Enum.Material.Wood
+part165.Orientation = Vector3.new(0, 180, 0)
+part165.Position = Vector3.new(5.8, 5.6, 30.1)
+part165.Rotation = Vector3.new(-180, 0, -180)
+part165.Size = Vector3.new(0.2, 0.2, 1.8)
+part165.Parent = chair
+
+local part166 = Instance.new("Part")
+part166.Name = "Part"
+part166.Anchored = true
+part166.BrickColor = BrickColor.new("Brown")
+part166.CFrame = CFrame.new(5.79965496, 4.80000687, 30.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+part166.Color = Color3.fromRGB(124, 92, 70)
+part166.Material = Enum.Material.Wood
+part166.Orientation = Vector3.new(0, 180, 0)
+part166.Position = Vector3.new(5.8, 4.8, 30.1)
+part166.Rotation = Vector3.new(-180, 0, -180)
+part166.Size = Vector3.new(0.2, 0.2, 1.8)
+part166.Parent = chair
+
+local part167 = Instance.new("Part")
+part167.Name = "Part"
+part167.Anchored = true
+part167.BrickColor = BrickColor.new("Brown")
+part167.CFrame = CFrame.new(5.79965496, 5.20000172, 30.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+part167.Color = Color3.fromRGB(124, 92, 70)
+part167.Material = Enum.Material.Wood
+part167.Orientation = Vector3.new(0, 180, 0)
+part167.Position = Vector3.new(5.8, 5.2, 30.1)
+part167.Rotation = Vector3.new(-180, 0, -180)
+part167.Size = Vector3.new(0.2, 0.2, 1.8)
+part167.Parent = chair
+
+local seat = Instance.new("Seat")
+seat.Name = "Seat"
+seat.Anchored = true
+seat.BrickColor = BrickColor.new("Brown")
+seat.CFrame = CFrame.new(6.39965343, 3.2000072, 30.100132, -9.68575478e-08, 0, -1, 0, 1, 0, 1, 0, -9.68575478e-08)
+seat.Color = Color3.fromRGB(124, 92, 70)
+seat.Material = Enum.Material.Wood
+seat.Orientation = Vector3.new(0, -90, 0)
+seat.Position = Vector3.new(6.4, 3.2, 30.1)
+seat.Rotation = Vector3.new(0, -90, 0)
+seat.Size = Vector3.new(1.8, 0.2, 1)
+seat.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+seat.Transparency = 1
+seat.Parent = chair
+
+local part168 = Instance.new("Part")
+part168.Name = "Part"
+part168.Anchored = true
+part168.BrickColor = BrickColor.new("Brown")
+part168.CFrame = CFrame.new(5.79965496, 4.40000629, 30.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+part168.Color = Color3.fromRGB(124, 92, 70)
+part168.Material = Enum.Material.Wood
+part168.Orientation = Vector3.new(0, 180, 0)
+part168.Position = Vector3.new(5.8, 4.4, 30.1)
+part168.Rotation = Vector3.new(-180, 0, -180)
+part168.Size = Vector3.new(0.2, 0.2, 1.8)
+part168.Parent = chair
+
+local part169 = Instance.new("Part")
+part169.Name = "Part"
+part169.Anchored = true
+part169.BrickColor = BrickColor.new("Brown")
+part169.CFrame = CFrame.new(7.7996521, 2.40000606, 31.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+part169.Color = Color3.fromRGB(124, 92, 70)
+part169.Material = Enum.Material.Wood
+part169.Orientation = Vector3.new(0, 180, 0)
+part169.Position = Vector3.new(7.8, 2.4, 31.1)
+part169.Rotation = Vector3.new(-180, 0, -180)
+part169.Size = Vector3.new(0.2, 1.8, 0.2)
+part169.Parent = chair
+
+local part170 = Instance.new("Part")
+part170.Name = "Part"
+part170.Anchored = true
+part170.BrickColor = BrickColor.new("Brown")
+part170.CFrame = CFrame.new(7.7996521, 2.40000606, 29.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+part170.Color = Color3.fromRGB(124, 92, 70)
+part170.Material = Enum.Material.Wood
+part170.Orientation = Vector3.new(0, 180, 0)
+part170.Position = Vector3.new(7.8, 2.4, 29.1)
+part170.Rotation = Vector3.new(-180, 0, -180)
+part170.Size = Vector3.new(0.2, 1.8, 0.2)
+part170.Parent = chair
+
+local union = Instance.new("UnionOperation")
+union.Name = "Union"
+union.UsePartColor = true
+union.Anchored = true
+union.BrickColor = BrickColor.new("Brown")
+union.CFrame = CFrame.new(6.79966068, 3.20000434, 30.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
+union.Color = Color3.fromRGB(124, 92, 70)
+union.Material = Enum.Material.Wood
+union.Orientation = Vector3.new(0, 180, 0)
+union.Position = Vector3.new(6.8, 3.2, 30.1)
+union.Rotation = Vector3.new(-180, 0, -180)
+union.Size = Vector3.new(2.2, 0.2, 2.2)
+union.Parent = chair
+
+chair.Parent = map
+
+local ultimate_GAMING_pc_setup = Instance.new("Model")
+ultimate_GAMING_pc_setup.Name = "Ultimate GAMING pc setup"
+ultimate_GAMING_pc_setup.WorldPivot = CFrame.new(11.2940044, 5.88043976, 31.2108078, 0, 0.342020094, -0.939692557, -1, 0, 0, 0, 0.939692557, 0.342020094)
+
+local gAMING_mouse = Instance.new("Model")
+gAMING_mouse.Name = "GAMING mouse"
+gAMING_mouse.WorldPivot = CFrame.new(9.69674492, 4.65198517, 32.9288521, -0.043618381, -1.19401122e-07, 0.999048233, -2.52409631e-08, 1, 1.18412871e-07, -0.999048233, -2.00519565e-08, -0.043618381)
+
+local ball_mouse = Instance.new("UnionOperation")
+ball_mouse.Name = "Ball mouse"
+ball_mouse.Anchored = true
+ball_mouse.BrickColor = BrickColor.Gray()
+ball_mouse.CFrame = CFrame.new(9.69674301, 4.65197563, 32.9288597, -0.0436204374, -1.19399886e-07, 0.999047637, -2.52408867e-08, 0.999996185, 1.1841118e-07, -0.999044597, -2.00514485e-08, -0.043622762)
+ball_mouse.Color = Color3.fromRGB(163, 162, 165)
+ball_mouse.Material = Enum.Material.SmoothPlastic
+ball_mouse.Orientation = Vector3.new(0, 92.5, 0)
+ball_mouse.Position = Vector3.new(9.7, 4.65, 32.9)
+ball_mouse.Rotation = Vector3.new(-180, 87.5, 180)
+ball_mouse.Size = Vector3.new(0.595, 0.288, 0.962)
+ball_mouse.Parent = gAMING_mouse
+
+gAMING_mouse.Parent = ultimate_GAMING_pc_setup
+
+local rGB_GAMING_GAMER_KEYBOARD = Instance.new("Model")
+rGB_GAMING_GAMER_KEYBOARD.Name = "RGB GAMING GAMER KEYBOARD"
+rGB_GAMING_GAMER_KEYBOARD.WorldPivot = CFrame.new(9.55665112, 4.65111065, 30.543705, 0.990284801, -0.131999075, 0.0437274575, 0.132125467, 0.991233051, -1.04893388e-07, -0.0433440804, 0.00577761605, 0.999043465)
+
+local s_Keyboard = Instance.new("UnionOperation")
+s_Keyboard.Name = "90s Keyboard"
+s_Keyboard.Anchored = true
+s_Keyboard.BrickColor = BrickColor.DarkGray()
+s_Keyboard.CFrame = CFrame.new(9.55639553, 4.65063953, 30.5432472, 0.990283847, -0.132038698, 0.0436204374, 0.132164061, 0.99122411, 2.52408867e-08, -0.0432401001, 0.00576535612, 0.999044597)
+s_Keyboard.Color = Color3.fromRGB(99, 95, 98)
+s_Keyboard.Material = Enum.Material.SmoothPlastic
+s_Keyboard.Orientation = Vector3.new(0, 2.5, 7.59)
+s_Keyboard.Position = Vector3.new(9.56, 4.65, 30.5)
+s_Keyboard.Rotation = Vector3.new(0, 2.5, 7.59)
+s_Keyboard.Size = Vector3.new(1.17, 0.148, 3.3)
+s_Keyboard.Parent = rGB_GAMING_GAMER_KEYBOARD
+
+local s_Keyboard1 = Instance.new("MeshPart")
+s_Keyboard1.Name = "90s Keyboard"
+s_Keyboard1.Anchored = true
+s_Keyboard1.BrickColor = BrickColor.DarkGray()
+s_Keyboard1.CFrame = CFrame.new(9.94848537, 4.70713472, 31.6406689, 0.990283787, -0.132038698, 0.0436203778, 0.132164061, 0.99122411, 1.73633818e-08, -0.0432400107, 0.00576535612, 0.999044597)
+s_Keyboard1.Color = Color3.fromRGB(99, 95, 98)
+s_Keyboard1.Material = Enum.Material.SmoothPlastic
+s_Keyboard1.Orientation = Vector3.new(0, 2.5, 7.59)
+s_Keyboard1.Position = Vector3.new(9.95, 4.71, 31.6)
+s_Keyboard1.Rotation = Vector3.new(0, 2.5, 7.59)
+s_Keyboard1.Size = Vector3.new(0.0528, 0.0422, 0.127)
+s_Keyboard1.Parent = rGB_GAMING_GAMER_KEYBOARD
+
+local s_Keyboard2 = Instance.new("MeshPart")
+s_Keyboard2.Name = "90s Keyboard"
+s_Keyboard2.Anchored = true
+s_Keyboard2.BrickColor = BrickColor.DarkGray()
+s_Keyboard2.CFrame = CFrame.new(9.95584965, 4.70713472, 31.8093777, 0.990283787, -0.132038698, 0.0436203778, 0.132164061, 0.99122411, 1.73633818e-08, -0.0432400107, 0.00576535612, 0.999044597)
+s_Keyboard2.Color = Color3.fromRGB(99, 95, 98)
+s_Keyboard2.Material = Enum.Material.SmoothPlastic
+s_Keyboard2.Orientation = Vector3.new(0, 2.5, 7.59)
+s_Keyboard2.Position = Vector3.new(9.96, 4.71, 31.8)
+s_Keyboard2.Rotation = Vector3.new(0, 2.5, 7.59)
+s_Keyboard2.Size = Vector3.new(0.0528, 0.0422, 0.127)
+s_Keyboard2.Parent = rGB_GAMING_GAMER_KEYBOARD
+
+local s_Keyboard3 = Instance.new("MeshPart")
+s_Keyboard3.Name = "90s Keyboard"
+s_Keyboard3.Anchored = true
+s_Keyboard3.BrickColor = BrickColor.DarkGray()
+s_Keyboard3.CFrame = CFrame.new(9.96321964, 4.70713472, 31.9780903, 0.990283787, -0.132038698, 0.0436203778, 0.132164061, 0.99122411, 1.73633818e-08, -0.0432400107, 0.00576535612, 0.999044597)
+s_Keyboard3.Color = Color3.fromRGB(99, 95, 98)
+s_Keyboard3.Material = Enum.Material.SmoothPlastic
+s_Keyboard3.Orientation = Vector3.new(0, 2.5, 7.59)
+s_Keyboard3.Position = Vector3.new(9.96, 4.71, 32)
+s_Keyboard3.Rotation = Vector3.new(0, 2.5, 7.59)
+s_Keyboard3.Size = Vector3.new(0.0528, 0.0422, 0.127)
+s_Keyboard3.Parent = rGB_GAMING_GAMER_KEYBOARD
+
+rGB_GAMING_GAMER_KEYBOARD.Parent = ultimate_GAMING_pc_setup
+
+local wedge__for_gamer_keyboard_ = Instance.new("WedgePart")
+wedge__for_gamer_keyboard_.Name = "Wedge (for gamer keyboard)"
+wedge__for_gamer_keyboard_.Anchored = true
+wedge__for_gamer_keyboard_.BottomSurface = Enum.SurfaceType.Smooth
+wedge__for_gamer_keyboard_.BrickColor = BrickColor.DarkGray()
+wedge__for_gamer_keyboard_.CFrame = CFrame.new(9.59617615, 4.58141184, 30.5414658, -0.0436204374, -1.19399857e-07, 0.999047637, -2.52408867e-08, 0.999996185, 1.18411151e-07, -0.999044597, -2.00514521e-08, -0.043622762)
+wedge__for_gamer_keyboard_.Color = Color3.fromRGB(99, 95, 98)
+wedge__for_gamer_keyboard_.Material = Enum.Material.SmoothPlastic
+wedge__for_gamer_keyboard_.Orientation = Vector3.new(0, 92.5, 0)
+wedge__for_gamer_keyboard_.Position = Vector3.new(9.6, 4.58, 30.5)
+wedge__for_gamer_keyboard_.Rotation = Vector3.new(-180, 87.5, 180)
+wedge__for_gamer_keyboard_.Size = Vector3.new(3.3, 0.147, 1.1)
+wedge__for_gamer_keyboard_.Parent = ultimate_GAMING_pc_setup
+
+local gaming_Wires = Instance.new("UnionOperation")
+gaming_Wires.Name = "Gaming Wires"
+gaming_Wires.Anchored = true
+gaming_Wires.BrickColor = BrickColor.DarkGray()
+gaming_Wires.CFrame = CFrame.new(11.8700562, 5.16114855, 32.0146103, -3.63307593e-15, 0.342018813, -0.939692557, -0.999996185, -2.8421601e-14, -1.42108005e-14, 3.15679625e-14, 0.939688921, 0.342020065)
+gaming_Wires.CanCollide = false
+gaming_Wires.Color = Color3.fromRGB(99, 95, 98)
+gaming_Wires.Orientation = Vector3.new(0, -70, -90)
+gaming_Wires.Position = Vector3.new(11.9, 5.16, 32)
+gaming_Wires.Rotation = Vector3.new(0, -70, -90)
+gaming_Wires.Size = Vector3.new(1.32, 3.85, 4.3)
+gaming_Wires.Parent = ultimate_GAMING_pc_setup
+
+local ultra_HD_gaming_monitor = Instance.new("Model")
+ultra_HD_gaming_monitor.Name = "Ultra HD gaming monitor"
+ultra_HD_gaming_monitor.WorldPivot = CFrame.new(11.9526367, 5.81710291, 30.3984871, -0.043618381, -1.19401122e-07, 0.999048233, -2.52409631e-08, 1, 1.18412871e-07, -0.999048233, -2.00519565e-08, -0.043618381)
+
+local emachines_monitor = Instance.new("UnionOperation")
+emachines_monitor.Name = "2006 Emachines monitor"
+emachines_monitor.Anchored = true
+emachines_monitor.BrickColor = BrickColor.DarkGray()
+emachines_monitor.CFrame = CFrame.new(12.8143167, 5.70558548, 30.3608589, 0.0436204374, -1.19399886e-07, -0.999047637, 2.52408867e-08, 0.999996185, -1.1841118e-07, 0.999044597, -2.00514485e-08, 0.043622762)
+emachines_monitor.Color = Color3.fromRGB(99, 95, 98)
+emachines_monitor.Orientation = Vector3.new(0, -87.5, 0)
+emachines_monitor.Position = Vector3.new(12.8, 5.71, 30.4)
+emachines_monitor.Rotation = Vector3.new(0, -87.5, 0)
+emachines_monitor.Size = Vector3.new(1.88, 1.56, 1.1)
+emachines_monitor.Parent = ultra_HD_gaming_monitor
+
+local emachines_monitor1 = Instance.new("MeshPart")
+emachines_monitor1.Name = "2006 Emachines monitor"
+emachines_monitor1.Anchored = true
+emachines_monitor1.BrickColor = BrickColor.DarkGray()
+emachines_monitor1.CFrame = CFrame.new(10.5882149, 4.61504984, 30.7936306, -0.0885957479, -1.19399886e-07, 0.996067226, -3.05511527e-08, 0.999996185, 1.17153483e-07, -0.996064067, -2.00514485e-08, -0.0885979235)
+emachines_monitor1.Color = Color3.fromRGB(99, 95, 98)
+emachines_monitor1.Orientation = Vector3.new(0, 95.1, 0)
+emachines_monitor1.Position = Vector3.new(10.6, 4.62, 30.8)
+emachines_monitor1.Rotation = Vector3.new(-180, 84.9, 180)
+emachines_monitor1.Size = Vector3.new(0.14, 0.0559, 0.0559)
+emachines_monitor1.Parent = ultra_HD_gaming_monitor
+
+local emachines_monitor2 = Instance.new("MeshPart")
+emachines_monitor2.Name = "2006 Emachines monitor"
+emachines_monitor2.Anchored = true
+emachines_monitor2.BrickColor = BrickColor.DarkGray()
+emachines_monitor2.CFrame = CFrame.new(10.6038857, 4.61504984, 30.9698238, -0.0885957479, -1.19399886e-07, 0.996067226, -3.05511527e-08, 0.999996185, 1.17153483e-07, -0.996064067, -2.00514485e-08, -0.0885979235)
+emachines_monitor2.Color = Color3.fromRGB(99, 95, 98)
+emachines_monitor2.Orientation = Vector3.new(0, 95.1, 0)
+emachines_monitor2.Position = Vector3.new(10.6, 4.62, 31)
+emachines_monitor2.Rotation = Vector3.new(-180, 84.9, 180)
+emachines_monitor2.Size = Vector3.new(0.14, 0.0559, 0.0559)
+emachines_monitor2.Parent = ultra_HD_gaming_monitor
+
+local emachines_monitor3 = Instance.new("MeshPart")
+emachines_monitor3.Name = "2006 Emachines monitor"
+emachines_monitor3.Anchored = true
+emachines_monitor3.BrickColor = BrickColor.DarkGray()
+emachines_monitor3.CFrame = CFrame.new(10.650898, 4.61504984, 31.4983978, -0.0885957479, -1.19399886e-07, 0.996067166, -3.05511527e-08, 0.999996185, 1.17153476e-07, -0.996064067, -2.00514485e-08, -0.0885979235)
+emachines_monitor3.Color = Color3.fromRGB(99, 95, 98)
+emachines_monitor3.Orientation = Vector3.new(0, 95.1, 0)
+emachines_monitor3.Position = Vector3.new(10.7, 4.62, 31.5)
+emachines_monitor3.Rotation = Vector3.new(-180, 84.9, 180)
+emachines_monitor3.Size = Vector3.new(0.14, 0.0559, 0.0559)
+emachines_monitor3.Parent = ultra_HD_gaming_monitor
+
+local emachines_monitor4 = Instance.new("MeshPart")
+emachines_monitor4.Name = "2006 Emachines monitor"
+emachines_monitor4.Anchored = true
+emachines_monitor4.BrickColor = BrickColor.DarkGray()
+emachines_monitor4.CFrame = CFrame.new(10.6352272, 4.61504984, 31.3222046, -0.0885957479, -1.19399886e-07, 0.996067226, -3.05511527e-08, 0.999996185, 1.17153483e-07, -0.996064067, -2.00514485e-08, -0.0885979235)
+emachines_monitor4.Color = Color3.fromRGB(99, 95, 98)
+emachines_monitor4.Orientation = Vector3.new(0, 95.1, 0)
+emachines_monitor4.Position = Vector3.new(10.6, 4.62, 31.3)
+emachines_monitor4.Rotation = Vector3.new(-180, 84.9, 180)
+emachines_monitor4.Size = Vector3.new(0.14, 0.0559, 0.0559)
+emachines_monitor4.Parent = ultra_HD_gaming_monitor
+
+local emachines_monitor5 = Instance.new("MeshPart")
+emachines_monitor5.Name = "2006 Emachines monitor"
+emachines_monitor5.Anchored = true
+emachines_monitor5.BrickColor = BrickColor.DarkGray()
+emachines_monitor5.CFrame = CFrame.new(10.6195545, 4.61504984, 31.1460114, -0.0885957479, -1.19399886e-07, 0.996067226, -3.05511527e-08, 0.999996185, 1.17153483e-07, -0.996064067, -2.00514485e-08, -0.0885979235)
+emachines_monitor5.Color = Color3.fromRGB(99, 95, 98)
+emachines_monitor5.Orientation = Vector3.new(0, 95.1, 0)
+emachines_monitor5.Position = Vector3.new(10.6, 4.62, 31.1)
+emachines_monitor5.Rotation = Vector3.new(-180, 84.9, 180)
+emachines_monitor5.Size = Vector3.new(0.14, 0.0559, 0.0559)
+emachines_monitor5.Parent = ultra_HD_gaming_monitor
+
+local emachines_monitor6 = Instance.new("UnionOperation")
+emachines_monitor6.Name = "2006 Emachines monitor"
+emachines_monitor6.Anchored = true
+emachines_monitor6.BrickColor = BrickColor.DarkGray()
+emachines_monitor6.CFrame = CFrame.new(12.1245785, 4.94639969, 30.3221722, -0.0436204374, -1.19399886e-07, 0.999047637, -2.52408867e-08, 0.999996185, 1.1841118e-07, -0.999044597, -2.00514485e-08, -0.043622762)
+emachines_monitor6.Color = Color3.fromRGB(99, 95, 98)
+emachines_monitor6.Orientation = Vector3.new(0, 92.5, 0)
+emachines_monitor6.Position = Vector3.new(12.1, 4.95, 30.3)
+emachines_monitor6.Rotation = Vector3.new(-180, 87.5, 180)
+emachines_monitor6.Size = Vector3.new(1.74, 0.877, 1.56)
+emachines_monitor6.Parent = ultra_HD_gaming_monitor
+
+local emachines_monitor7 = Instance.new("UnionOperation")
+emachines_monitor7.Name = "2006 Emachines monitor"
+emachines_monitor7.Anchored = true
+emachines_monitor7.BrickColor = BrickColor.Black()
+emachines_monitor7.CFrame = CFrame.new(11.9526415, 5.8201437, 30.3984833, -0.0436204374, -1.19399886e-07, 0.999047637, -2.52408867e-08, 0.999996185, 1.1841118e-07, -0.999044597, -2.00514485e-08, -0.043622762)
+emachines_monitor7.Color = Color3.fromRGB(27, 42, 53)
+emachines_monitor7.Orientation = Vector3.new(0, 92.5, 0)
+emachines_monitor7.Position = Vector3.new(12, 5.82, 30.4)
+emachines_monitor7.Rotation = Vector3.new(-180, 87.5, 180)
+emachines_monitor7.Size = Vector3.new(2.61, 2.61, 2.82)
+emachines_monitor7.Parent = ultra_HD_gaming_monitor
+
+local emachines_monitor8 = Instance.new("Part")
+emachines_monitor8.Name = "2006 Emachines monitor"
+emachines_monitor8.Anchored = true
+emachines_monitor8.BottomSurface = Enum.SurfaceType.Smooth
+emachines_monitor8.BrickColor = BrickColor.new("Institutional white")
+emachines_monitor8.CFrame = CFrame.new(10.8227787, 5.86597443, 30.4478168, -0.0436204374, -1.19399886e-07, 0.999047637, -2.52408867e-08, 0.999996185, 1.1841118e-07, -0.999044597, -2.00514485e-08, -0.043622762)
+emachines_monitor8.Color = Color3.fromRGB(248, 248, 248)
+emachines_monitor8.Material = Enum.Material.Neon
+emachines_monitor8.Orientation = Vector3.new(0, 92.5, 0)
+emachines_monitor8.Position = Vector3.new(10.8, 5.87, 30.4)
+emachines_monitor8.Rotation = Vector3.new(-180, 87.5, 180)
+emachines_monitor8.Size = Vector3.new(2.06, 1.79, 0.183)
+emachines_monitor8.TopSurface = Enum.SurfaceType.Smooth
+
+local decal = Instance.new("Decal")
+decal.Name = "Decal"
+decal.Texture = "http://www.roblox.com/asset/?id=1510036553"
+decal.Transparency = 0.1
+decal.Parent = emachines_monitor8
+
+emachines_monitor8.Parent = ultra_HD_gaming_monitor
+
+ultra_HD_gaming_monitor.Parent = ultimate_GAMING_pc_setup
+
+local gAMING_PC = Instance.new("Model")
+gAMING_PC.Name = "GAMING PC"
+gAMING_PC.WorldPivot = CFrame.new(12.0271034, 5.88444901, 32.9078827, 0.043618381, -1.19401122e-07, -0.999048233, 2.52409631e-08, 1, -1.18412871e-07, 0.999048233, -2.00519565e-08, 0.043618381)
+
+local dell_4600_PC = Instance.new("UnionOperation")
+dell_4600_PC.Name = "2003 Dell 4600 PC"
+dell_4600_PC.Anchored = true
+dell_4600_PC.BrickColor = BrickColor.Gray()
+dell_4600_PC.CFrame = CFrame.new(10.9956341, 5.88442945, 32.9499397, 0.0436204374, -1.19399886e-07, -0.999047637, 2.52408867e-08, 0.999996185, -1.1841118e-07, 0.999044597, -2.00514485e-08, 0.043622762)
+dell_4600_PC.Color = Color3.fromRGB(163, 162, 165)
+dell_4600_PC.Material = Enum.Material.SmoothPlastic
+dell_4600_PC.Orientation = Vector3.new(0, -87.5, 0)
+dell_4600_PC.Position = Vector3.new(11, 5.88, 32.9)
+dell_4600_PC.Rotation = Vector3.new(0, -87.5, 0)
+dell_4600_PC.Size = Vector3.new(1.38, 2.75, 0.958)
+dell_4600_PC.Parent = gAMING_PC
+
+local dell_4600_PC1 = Instance.new("UnionOperation")
+dell_4600_PC1.Name = "2003 Dell 4600 PC"
+dell_4600_PC1.Anchored = true
+dell_4600_PC1.BrickColor = BrickColor.Black()
+dell_4600_PC1.CFrame = CFrame.new(13.4768505, 5.88444614, 32.8415985, -0.0436204374, -1.19399886e-07, 0.999047637, -2.52408867e-08, 0.999996185, 1.1841118e-07, -0.999044597, -2.00514485e-08, -0.043622762)
+dell_4600_PC1.Color = Color3.fromRGB(27, 42, 53)
+dell_4600_PC1.Material = Enum.Material.SmoothPlastic
+dell_4600_PC1.Orientation = Vector3.new(0, 92.5, 0)
+dell_4600_PC1.Position = Vector3.new(13.5, 5.88, 32.8)
+dell_4600_PC1.Rotation = Vector3.new(-180, 87.5, 180)
+dell_4600_PC1.Size = Vector3.new(1.38, 2.75, 0.12)
+dell_4600_PC1.Parent = gAMING_PC
+
+local dell_4600_PC2 = Instance.new("UnionOperation")
+dell_4600_PC2.Name = "2003 Dell 4600 PC"
+dell_4600_PC2.Anchored = true
+dell_4600_PC2.BrickColor = BrickColor.DarkGray()
+dell_4600_PC2.CFrame = CFrame.new(11.9822664, 5.88444614, 32.9098473, 0.0436204374, -1.19399886e-07, -0.999047637, 2.52408867e-08, 0.999996185, -1.1841118e-07, 0.999044597, -2.00514485e-08, 0.043622762)
+dell_4600_PC2.Color = Color3.fromRGB(99, 95, 98)
+dell_4600_PC2.Material = Enum.Material.SmoothPlastic
+dell_4600_PC2.Orientation = Vector3.new(0, -87.5, 0)
+dell_4600_PC2.Position = Vector3.new(12, 5.88, 32.9)
+dell_4600_PC2.Rotation = Vector3.new(0, -87.5, 0)
+dell_4600_PC2.Size = Vector3.new(1.49, 2.75, 2.87)
+dell_4600_PC2.Parent = gAMING_PC
+
+gAMING_PC.Parent = ultimate_GAMING_pc_setup
+
+local thumbnailCamera = Instance.new("Camera")
+thumbnailCamera.Name = "ThumbnailCamera"
+thumbnailCamera.CFrame = CFrame.new(11.1128263, 3.65732574, -5.03659058, 0.996453345, -0.0247581564, 0.0804223791, -0, 0.955736279, 0.294224918, -0.0841470435, -0.29318139, 0.952346563)
+thumbnailCamera.Focus = CFrame.new(10.9519815, 3.06887579, -6.94128418, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+thumbnailCamera.Parent = ultimate_GAMING_pc_setup
+
+ultimate_GAMING_pc_setup.Parent = map
+
+local table = Instance.new("Model")
+table.Name = "table"
+table.WorldPivot = CFrame.new(10.6998024, 2.99999022, 31.7999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+
+local union1 = Instance.new("UnionOperation")
+union1.Name = "Union"
+union1.Anchored = true
+union1.BrickColor = BrickColor.new("Brown")
+union1.CFrame = CFrame.new(8.69987106, 3.59998608, 34.3999519, 0.999996185, 0, 0, 0, 2.98022087e-08, 0.999996185, 0, -1, 2.98023224e-08)
+union1.Color = Color3.fromRGB(124, 92, 70)
+union1.Material = Enum.Material.Wood
+union1.Orientation = Vector3.new(-89.8, 0, 0)
+union1.Position = Vector3.new(8.7, 3.6, 34.4)
+union1.Rotation = Vector3.new(-90, 0, 0)
+union1.Size = Vector3.new(0.2, 1.6, 1.4)
+union1.Parent = table
+
+local part171 = Instance.new("Part")
+part171.Name = "Part"
+part171.Anchored = true
+part171.BrickColor = BrickColor.new("Brown")
+part171.CFrame = CFrame.new(8.69979477, 2.89999104, 28.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part171.Color = Color3.fromRGB(124, 92, 70)
+part171.Material = Enum.Material.Wood
+part171.Orientation = Vector3.new(0, 90, 0)
+part171.Position = Vector3.new(8.7, 2.9, 28.3)
+part171.Rotation = Vector3.new(0, 89.8, 0)
+part171.Size = Vector3.new(0.2, 2.8, 0.2)
+part171.Parent = table
+
+local union2 = Instance.new("UnionOperation")
+union2.Name = "Union"
+union2.Anchored = true
+union2.BrickColor = BrickColor.new("Brown")
+union2.CFrame = CFrame.new(12.6999016, 3.59998608, 34.3999519, 0.999996185, 0, 0, 0, 2.98022087e-08, 0.999996185, 0, -1, 2.98023224e-08)
+union2.Color = Color3.fromRGB(124, 92, 70)
+union2.Material = Enum.Material.Wood
+union2.Orientation = Vector3.new(-89.8, 0, 0)
+union2.Position = Vector3.new(12.7, 3.6, 34.4)
+union2.Rotation = Vector3.new(-90, 0, 0)
+union2.Size = Vector3.new(0.2, 1.6, 1.4)
+union2.Parent = table
+
+local part172 = Instance.new("Part")
+part172.Name = "Part"
+part172.Anchored = true
+part172.BrickColor = BrickColor.new("Brown")
+part172.CFrame = CFrame.new(12.6997795, 2.89999104, 35.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part172.Color = Color3.fromRGB(124, 92, 70)
+part172.Material = Enum.Material.Wood
+part172.Orientation = Vector3.new(0, 90, 0)
+part172.Position = Vector3.new(12.7, 2.9, 35.3)
+part172.Rotation = Vector3.new(0, 89.8, 0)
+part172.Size = Vector3.new(0.2, 2.8, 0.2)
+part172.Parent = table
+
+local part173 = Instance.new("Part")
+part173.Name = "Part"
+part173.Anchored = true
+part173.BrickColor = BrickColor.new("Brown")
+part173.CFrame = CFrame.new(12.6997795, 2.89999104, 28.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part173.Color = Color3.fromRGB(124, 92, 70)
+part173.Material = Enum.Material.Wood
+part173.Orientation = Vector3.new(0, 90, 0)
+part173.Position = Vector3.new(12.7, 2.9, 28.3)
+part173.Rotation = Vector3.new(0, 89.8, 0)
+part173.Size = Vector3.new(0.2, 2.8, 0.2)
+part173.Parent = table
+
+local union3 = Instance.new("UnionOperation")
+union3.Name = "Union"
+union3.Anchored = true
+union3.BrickColor = BrickColor.new("Brown")
+union3.CFrame = CFrame.new(8.69988632, 3.59998608, 29.1999626, -0.999996185, 0, 0, 0, 0, 0.999996185, 0, 1, 0)
+union3.Color = Color3.fromRGB(124, 92, 70)
+union3.Material = Enum.Material.Wood
+union3.Orientation = Vector3.new(-89.8, 0, 0)
+union3.Position = Vector3.new(8.7, 3.6, 29.2)
+union3.Rotation = Vector3.new(-90, 0, -180)
+union3.Size = Vector3.new(0.2, 1.6, 1.4)
+union3.Parent = table
+
+local part174 = Instance.new("Part")
+part174.Name = "Part"
+part174.Anchored = true
+part174.BottomSurface = Enum.SurfaceType.Smooth
+part174.BrickColor = BrickColor.new("Brown")
+part174.CFrame = CFrame.new(10.6998024, 4.39998102, 31.7999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part174.Color = Color3.fromRGB(124, 92, 70)
+part174.Material = Enum.Material.WoodPlanks
+part174.Orientation = Vector3.new(0, 90, 0)
+part174.Position = Vector3.new(10.7, 4.4, 31.8)
+part174.Rotation = Vector3.new(0, 89.8, 0)
+part174.Size = Vector3.new(7.6, 0.2, 4.6)
+part174.TopSurface = Enum.SurfaceType.Smooth
+part174.Parent = table
+
+local part175 = Instance.new("Part")
+part175.Name = "Part"
+part175.Anchored = true
+part175.BrickColor = BrickColor.new("Brown")
+part175.CFrame = CFrame.new(8.69979477, 2.89999104, 35.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part175.Color = Color3.fromRGB(124, 92, 70)
+part175.Material = Enum.Material.Wood
+part175.Orientation = Vector3.new(0, 90, 0)
+part175.Position = Vector3.new(8.7, 2.9, 35.3)
+part175.Rotation = Vector3.new(0, 89.8, 0)
+part175.Size = Vector3.new(0.2, 2.8, 0.2)
+part175.Parent = table
+
+local union4 = Instance.new("UnionOperation")
+union4.Name = "Union"
+union4.Anchored = true
+union4.BrickColor = BrickColor.new("Brown")
+union4.CFrame = CFrame.new(12.6999016, 3.59998608, 29.1999626, -0.999996185, 0, 0, 0, 0, 0.999996185, 0, 1, 0)
+union4.Color = Color3.fromRGB(124, 92, 70)
+union4.Material = Enum.Material.Wood
+union4.Orientation = Vector3.new(-89.8, 0, 0)
+union4.Position = Vector3.new(12.7, 3.6, 29.2)
+union4.Rotation = Vector3.new(-90, 0, -180)
+union4.Size = Vector3.new(0.2, 1.6, 1.4)
+union4.Parent = table
+
+table.Parent = map
 
 map.Parent = workspace
