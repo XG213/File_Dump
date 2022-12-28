@@ -6,6 +6,8 @@ local small_House = Instance.new("Model")
 small_House.Name = "Small House"
 small_House.WorldPivot = CFrame.new(-1, 9.51725197, 28, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 
+function first()
+
 local wedge = Instance.new("WedgePart")
 wedge.Name = "Wedge"
 wedge.Anchored = true
@@ -1508,6 +1510,8 @@ part99.Position = Vector3.new(8.6, 11.8, 28)
 part99.Size = Vector3.new(0.4, 0.6, 16.4)
 part99.TopSurface = Enum.SurfaceType.Smooth
 part99.Parent = small_House
+
+end
 
 local part100 = Instance.new("Part")
 part100.Name = "Part"
