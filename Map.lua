@@ -2459,3 +2459,5 @@ floor.Material = Enum.Material.Grass
 floor.Size = Vector3.new(100, 1, 100)
 floor.TopSurface = Enum.SurfaceType.Smooth
 floor.Parent = map
+
+map.Parent = game
