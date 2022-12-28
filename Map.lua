@@ -2769,7 +2769,6 @@ table.Parent = map
 
 function pc()
 local monitor = Instance.new("Model")
-monitor.Anchored = true
 monitor.Name = "Monitor"
 monitor.WorldPivot = CFrame.new(10.0797939, 6.08650398, 31.2550087, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 
