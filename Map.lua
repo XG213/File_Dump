@@ -6,8 +6,6 @@ local small_House = Instance.new("Model")
 small_House.Name = "Small House"
 small_House.WorldPivot = CFrame.new(-1, 9.51725197, 28, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 
-function first()
-
 local wedge = Instance.new("WedgePart")
 wedge.Name = "Wedge"
 wedge.Anchored = true
@@ -20,6 +18,8 @@ wedge.Material = Enum.Material.WoodPlanks
 wedge.Position = Vector3.new(-15.6, 15.1, 23.5)
 wedge.Size = Vector3.new(0.8, 6, 9)
 wedge.Parent = small_House
+
+function first()
 
 local part = Instance.new("Part")
 part.Name = "Part"
@@ -1017,6 +1017,9 @@ part64.Size = Vector3.new(0.4, 0.6, 16.4)
 part64.TopSurface = Enum.SurfaceType.Smooth
 part64.Parent = small_House
 
+end
+first()
+
 local part65 = Instance.new("Part")
 part65.Name = "Part"
 part65.Anchored = true
@@ -1510,9 +1513,6 @@ part99.Position = Vector3.new(8.6, 11.8, 28)
 part99.Size = Vector3.new(0.4, 0.6, 16.4)
 part99.TopSurface = Enum.SurfaceType.Smooth
 part99.Parent = small_House
-
-end
-first()
 
 local part100 = Instance.new("Part")
 part100.Name = "Part"
@@ -2588,362 +2588,229 @@ part170.Rotation = Vector3.new(-180, 0, -180)
 part170.Size = Vector3.new(0.2, 1.8, 0.2)
 part170.Parent = chair
 
-local union = Instance.new("UnionOperation")
-union.Name = "Union"
-union.UsePartColor = true
-union.Anchored = true
-union.BrickColor = BrickColor.new("Brown")
-union.CFrame = CFrame.new(6.79966068, 3.20000434, 31.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
-union.Color = Color3.fromRGB(124, 92, 70)
-union.Material = Enum.Material.Wood
-union.Orientation = Vector3.new(0, 180, 0)
-union.Position = Vector3.new(6.8, 3.2, 31.1)
-union.Rotation = Vector3.new(-180, 0, -180)
-union.Size = Vector3.new(2.2, 0.2, 2.2)
-union.Parent = chair
-
-chair.Parent = map
-
-local pc_Monitor = Instance.new("Model")
-pc_Monitor.Name = "Pc Monitor"
-pc_Monitor.WorldPivot = CFrame.new(9.99980259, 5.89008141, 30.9999485, 1.29642115e-06, 5.62153133e-19, -1, 9.2471503e-19, 1, 5.62154322e-19, 1, -9.24715857e-19, 1.29642103e-06)
-
-local bottom = Instance.new("Model")
-bottom.Name = "Bottom"
-bottom.WorldPivot = CFrame.new(9.99981785, 5.63518381, 31.0013103, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-
-local union1 = Instance.new("UnionOperation")
-union1.Name = "Union"
-union1.UsePartColor = true
-union1.Anchored = true
-union1.BrickColor = BrickColor.Black()
-union1.CFrame = CFrame.new(9.99981785, 4.60110712, 31.0013103, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union1.Color = Color3.fromRGB(27, 42, 53)
-union1.Orientation = Vector3.new(0, -90, 0)
-union1.Position = Vector3.new(10, 4.6, 31)
-union1.Rotation = Vector3.new(0, -90, 0)
-union1.Size = Vector3.new(2, 0.2, 1.6)
-union1.Parent = bottom
-
-local upset = Instance.new("Model")
-upset.Name = "Upset"
-upset.WorldPivot = CFrame.new(9.96875286, 5.63518381, 31.0201168, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-
-local union2 = Instance.new("UnionOperation")
-union2.Name = "Union"
-union2.UsePartColor = true
-union2.Anchored = true
-union2.BrickColor = BrickColor.Black()
-union2.CFrame = CFrame.new(9.74911976, 6.19980621, 30.9999313, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union2.Color = Color3.fromRGB(27, 42, 53)
-union2.Orientation = Vector3.new(0, -90, 0)
-union2.Position = Vector3.new(9.75, 6.2, 31)
-union2.Rotation = Vector3.new(0, -90, 0)
-union2.Size = Vector3.new(0.4, 0.2, 0.33)
-union2.Parent = upset
-
-local union3 = Instance.new("UnionOperation")
-union3.Name = "Union"
-union3.UsePartColor = true
-union3.Anchored = true
-union3.BrickColor = BrickColor.Black()
-union3.CFrame = CFrame.new(10.1139469, 5.63518381, 31.0201206, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union3.Color = Color3.fromRGB(27, 42, 53)
-union3.Orientation = Vector3.new(0, -90, 0)
-union3.Position = Vector3.new(10.1, 5.64, 31)
-union3.Rotation = Vector3.new(0, -90, 0)
-union3.Size = Vector3.new(0.44, 2.27, 0.479)
-union3.Parent = upset
-
-upset.Parent = bottom
-
-bottom.Parent = pc_Monitor
-
-local monitor = Instance.new("Model")
-monitor.Name = "Monitor"
-monitor.WorldPivot = CFrame.new(9.50436211, 6.2797575, 30.9999466, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-
-local monitor1 = Instance.new("Model")
-monitor1.Name = "Monitor"
-monitor1.WorldPivot = CFrame.new(9.50436211, 6.2797575, 30.9999466, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-
-local union4 = Instance.new("UnionOperation")
-union4.Name = "Union"
-union4.UsePartColor = true
-union4.Anchored = true
-union4.BrickColor = BrickColor.new("Really black")
-union4.CFrame = CFrame.new(9.26935387, 6.27973986, 30.9999943, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union4.Color = Color3.fromRGB(17, 17, 17)
-union4.Orientation = Vector3.new(0, -90, 0)
-union4.Position = Vector3.new(9.27, 6.28, 31)
-union4.Rotation = Vector3.new(0, -90, 0)
-union4.Size = Vector3.new(3.6, 2, 0.05)
-union4.Parent = monitor1
-
-local monitor2 = Instance.new("Model")
-monitor2.Name = "Monitor"
-monitor2.WorldPivot = CFrame.new(9.52437115, 6.2797575, 30.9999676, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-
-local monitor3 = Instance.new("Model")
-monitor3.Name = "Monitor"
-monitor3.WorldPivot = CFrame.new(9.52437115, 6.2797575, 30.9999676, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-
-local model2 = Instance.new("Model")
-model2.Name = "Model"
-model2.WorldPivot = CFrame.new(9.56434059, 5.68013477, 30.9999409, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-
-local union5 = Instance.new("UnionOperation")
-union5.Name = "Union"
-union5.UsePartColor = true
-union5.Anchored = true
-union5.BrickColor = BrickColor.Black()
-union5.CFrame = CFrame.new(9.41433334, 5.38037014, 32.4790192, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union5.Color = Color3.fromRGB(27, 42, 53)
-union5.Orientation = Vector3.new(0, -90, 0)
-union5.Position = Vector3.new(9.41, 5.38, 32.5)
-union5.Rotation = Vector3.new(0, -90, 0)
-union5.Size = Vector3.new(0.4, 0.2, 0.1)
-union5.Parent = model2
-
-local union6 = Instance.new("UnionOperation")
-union6.Name = "Union"
-union6.UsePartColor = true
-union6.Anchored = true
-union6.BrickColor = BrickColor.Black()
-union6.CFrame = CFrame.new(9.41433048, 5.38036156, 30.9249725, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union6.Color = Color3.fromRGB(27, 42, 53)
-union6.Orientation = Vector3.new(0, -90, 0)
-union6.Position = Vector3.new(9.41, 5.38, 30.9)
-union6.Rotation = Vector3.new(0, -90, 0)
-union6.Size = Vector3.new(2.83, 0.2, 0.1)
-union6.Parent = model2
-
-local union7 = Instance.new("UnionOperation")
-union7.Name = "Union"
-union7.UsePartColor = true
-union7.Anchored = true
-union7.BrickColor = BrickColor.Black()
-union7.CFrame = CFrame.new(9.56438637, 5.6801405, 30.9999485, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union7.Color = Color3.fromRGB(27, 42, 53)
-union7.Orientation = Vector3.new(0, -90, 0)
-union7.Position = Vector3.new(9.56, 5.68, 31)
-union7.Rotation = Vector3.new(0, -90, 0)
-union7.Size = Vector3.new(3.6, 0.8, 0.4)
-union7.Parent = model2
-
-local union8 = Instance.new("UnionOperation")
-union8.Name = "Union"
-union8.UsePartColor = true
-union8.Anchored = true
-union8.BrickColor = BrickColor.Black()
-union8.CFrame = CFrame.new(9.41437149, 5.38037014, 29.4809322, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union8.Color = Color3.fromRGB(27, 42, 53)
-union8.Orientation = Vector3.new(0, -90, 0)
-union8.Position = Vector3.new(9.41, 5.38, 29.5)
-union8.Rotation = Vector3.new(0, -90, 0)
-union8.Size = Vector3.new(0.4, 0.2, 0.1)
-union8.Parent = model2
-
-model2.Parent = monitor3
-
-local model3 = Instance.new("Model")
-model3.Name = "Model"
-model3.WorldPivot = CFrame.new(9.54432487, 6.32232666, 30.999958, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-
-local union9 = Instance.new("UnionOperation")
-union9.Name = "Union"
-union9.UsePartColor = true
-union9.Anchored = true
-union9.BrickColor = BrickColor.Black()
-union9.CFrame = CFrame.new(9.54432869, 6.32239962, 30.1005821, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union9.Color = Color3.fromRGB(27, 42, 53)
-union9.Orientation = Vector3.new(0, -90, 0)
-union9.Position = Vector3.new(9.54, 6.32, 30.1)
-union9.Rotation = Vector3.new(0, -90, 0)
-union9.Size = Vector3.new(1.8, 1.91, 0.36)
-union9.Parent = model3
-
-local union10 = Instance.new("UnionOperation")
-union10.Name = "Union"
-union10.UsePartColor = true
-union10.Anchored = true
-union10.BrickColor = BrickColor.Black()
-union10.CFrame = CFrame.new(9.54429817, 6.32225466, 31.8994102, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union10.Color = Color3.fromRGB(27, 42, 53)
-union10.Orientation = Vector3.new(0, -90, 0)
-union10.Position = Vector3.new(9.54, 6.32, 31.9)
-union10.Rotation = Vector3.new(0, -90, 0)
-union10.Size = Vector3.new(1.8, 1.91, 0.36)
-union10.Parent = model3
-
-local union11 = Instance.new("UnionOperation")
-union11.Name = "Union"
-union11.UsePartColor = true
-union11.Anchored = true
-union11.BrickColor = BrickColor.Black()
-union11.CFrame = CFrame.new(9.54429531, 6.97913218, 30.9999542, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union11.Color = Color3.fromRGB(27, 42, 53)
-union11.Orientation = Vector3.new(0, -90, 0)
-union11.Position = Vector3.new(9.54, 6.98, 31)
-union11.Rotation = Vector3.new(0, -90, 0)
-union11.Size = Vector3.new(3.6, 0.6, 0.36)
-union11.Parent = model3
-
-model3.Parent = monitor3
-
-local union12 = Instance.new("UnionOperation")
-union12.Name = "Union"
-union12.UsePartColor = true
-union12.Anchored = true
-union12.BrickColor = BrickColor.Black()
-union12.CFrame = CFrame.new(9.32436275, 6.27973986, 30.9999905, 1.28897068e-06, 5.62153082e-19, -1, 1.04554492e-18, 1, 5.62154426e-19, 1, -1.04554575e-18, 1.28897057e-06)
-union12.Color = Color3.fromRGB(27, 42, 53)
-union12.Orientation = Vector3.new(0, -90, 0)
-union12.Position = Vector3.new(9.32, 6.28, 31)
-union12.Rotation = Vector3.new(0, -90, 0)
-union12.Size = Vector3.new(3.6, 2, 0.08)
-union12.Parent = monitor3
-
-monitor3.Parent = monitor2
-
-monitor2.Parent = monitor1
-
-monitor1.Parent = monitor
-
-monitor.Parent = pc_Monitor
-
-local thumbnailCamera = Instance.new("Camera")
-thumbnailCamera.Name = "ThumbnailCamera"
-thumbnailCamera.CFrame = CFrame.new(-164.084991, 1.58556318, 144.594955, 0.99997735, 6.92827452e-05, 0.00672913063, 7.27595675e-12, 0.999947071, -0.0102953985, -0.00672948686, 0.0102951657, 0.999924421)
-thumbnailCamera.DiagonalFieldOfView = 29.7
-thumbnailCamera.FieldOfView = 40
-thumbnailCamera.Focus = CFrame.new(-164.09845, 1.60615396, 142.595108, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-thumbnailCamera.MaxAxisFieldOfView = 40
-thumbnailCamera.Parent = pc_Monitor
-
-pc_Monitor.Parent = map
-
-local table = Instance.new("Model")
-table.Name = "table"
-table.WorldPivot = CFrame.new(10.6998024, 2.99999022, 31.7999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
-
-local union13 = Instance.new("UnionOperation")
-union13.Name = "Union"
-union13.Anchored = true
-union13.BrickColor = BrickColor.new("Brown")
-union13.CFrame = CFrame.new(8.69987106, 3.59998608, 34.3999519, 0.999996185, 0, 0, 0, 2.98022087e-08, 0.999996185, 0, -1, 2.98023224e-08)
-union13.Color = Color3.fromRGB(124, 92, 70)
-union13.Material = Enum.Material.Wood
-union13.Orientation = Vector3.new(-89.8, 0, 0)
-union13.Position = Vector3.new(8.7, 3.6, 34.4)
-union13.Rotation = Vector3.new(-90, 0, 0)
-union13.Size = Vector3.new(0.2, 1.6, 1.4)
-union13.Parent = table
-
 local part171 = Instance.new("Part")
 part171.Name = "Part"
 part171.Anchored = true
 part171.BrickColor = BrickColor.new("Brown")
-part171.CFrame = CFrame.new(8.69979477, 2.89999104, 28.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part171.CFrame = CFrame.new(7.79966021, 3.20000458, 31.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575549e-08, 0, -1)
 part171.Color = Color3.fromRGB(124, 92, 70)
 part171.Material = Enum.Material.Wood
-part171.Orientation = Vector3.new(0, 90, 0)
-part171.Position = Vector3.new(8.7, 2.9, 28.3)
-part171.Rotation = Vector3.new(0, 89.8, 0)
-part171.Size = Vector3.new(0.2, 2.8, 0.2)
-part171.Parent = table
-
-local union14 = Instance.new("UnionOperation")
-union14.Name = "Union"
-union14.Anchored = true
-union14.BrickColor = BrickColor.new("Brown")
-union14.CFrame = CFrame.new(12.6999016, 3.59998608, 34.3999519, 0.999996185, 0, 0, 0, 2.98022087e-08, 0.999996185, 0, -1, 2.98023224e-08)
-union14.Color = Color3.fromRGB(124, 92, 70)
-union14.Material = Enum.Material.Wood
-union14.Orientation = Vector3.new(-89.8, 0, 0)
-union14.Position = Vector3.new(12.7, 3.6, 34.4)
-union14.Rotation = Vector3.new(-90, 0, 0)
-union14.Size = Vector3.new(0.2, 1.6, 1.4)
-union14.Parent = table
+part171.Orientation = Vector3.new(0, 180, 0)
+part171.Position = Vector3.new(7.8, 3.2, 31.1)
+part171.Rotation = Vector3.new(-180, 0, -180)
+part171.Size = Vector3.new(0.2, 0.2, 1.8)
+part171.Parent = chair
 
 local part172 = Instance.new("Part")
 part172.Name = "Part"
 part172.Anchored = true
 part172.BrickColor = BrickColor.new("Brown")
-part172.CFrame = CFrame.new(12.6997795, 2.89999104, 35.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part172.CFrame = CFrame.new(6.69966125, 3.20000458, 30.100132, -1, 0, 9.68575549e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
 part172.Color = Color3.fromRGB(124, 92, 70)
 part172.Material = Enum.Material.Wood
-part172.Orientation = Vector3.new(0, 90, 0)
-part172.Position = Vector3.new(12.7, 2.9, 35.3)
-part172.Rotation = Vector3.new(0, 89.8, 0)
-part172.Size = Vector3.new(0.2, 2.8, 0.2)
-part172.Parent = table
+part172.Orientation = Vector3.new(0, 180, 0)
+part172.Position = Vector3.new(6.7, 3.2, 30.1)
+part172.Rotation = Vector3.new(-180, 0, -180)
+part172.Size = Vector3.new(2, 0.2, 0.2)
+part172.Parent = chair
 
 local part173 = Instance.new("Part")
 part173.Name = "Part"
 part173.Anchored = true
 part173.BrickColor = BrickColor.new("Brown")
-part173.CFrame = CFrame.new(12.6997795, 2.89999104, 28.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part173.CFrame = CFrame.new(6.69966078, 3.20000458, 31.100132, -1, 0, 9.68575478e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
 part173.Color = Color3.fromRGB(124, 92, 70)
 part173.Material = Enum.Material.Wood
-part173.Orientation = Vector3.new(0, 90, 0)
-part173.Position = Vector3.new(12.7, 2.9, 28.3)
-part173.Rotation = Vector3.new(0, 89.8, 0)
-part173.Size = Vector3.new(0.2, 2.8, 0.2)
-part173.Parent = table
-
-local union15 = Instance.new("UnionOperation")
-union15.Name = "Union"
-union15.Anchored = true
-union15.BrickColor = BrickColor.new("Brown")
-union15.CFrame = CFrame.new(8.69988632, 3.59998608, 29.1999626, -0.999996185, 0, 0, 0, 0, 0.999996185, 0, 1, 0)
-union15.Color = Color3.fromRGB(124, 92, 70)
-union15.Material = Enum.Material.Wood
-union15.Orientation = Vector3.new(-89.8, 0, 0)
-union15.Position = Vector3.new(8.7, 3.6, 29.2)
-union15.Rotation = Vector3.new(-90, 0, -180)
-union15.Size = Vector3.new(0.2, 1.6, 1.4)
-union15.Parent = table
+part173.Orientation = Vector3.new(0, 180, 0)
+part173.Position = Vector3.new(6.7, 3.2, 31.1)
+part173.Rotation = Vector3.new(-180, 0, -180)
+part173.Size = Vector3.new(2, 0.2, 1.8)
+part173.Parent = chair
 
 local part174 = Instance.new("Part")
 part174.Name = "Part"
 part174.Anchored = true
-part174.BottomSurface = Enum.SurfaceType.Smooth
 part174.BrickColor = BrickColor.new("Brown")
-part174.CFrame = CFrame.new(10.6998024, 4.39998102, 31.7999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part174.CFrame = CFrame.new(6.69966078, 3.20000458, 32.100132, -1, 0, 9.68575549e-08, 0, 1, 0, -9.68575478e-08, 0, -1)
 part174.Color = Color3.fromRGB(124, 92, 70)
-part174.Material = Enum.Material.WoodPlanks
-part174.Orientation = Vector3.new(0, 90, 0)
-part174.Position = Vector3.new(10.7, 4.4, 31.8)
-part174.Rotation = Vector3.new(0, 89.8, 0)
-part174.Size = Vector3.new(7.6, 0.2, 4.6)
-part174.TopSurface = Enum.SurfaceType.Smooth
-part174.Parent = table
+part174.Material = Enum.Material.Wood
+part174.Orientation = Vector3.new(0, 180, 0)
+part174.Position = Vector3.new(6.7, 3.2, 32.1)
+part174.Rotation = Vector3.new(-180, 0, -180)
+part174.Size = Vector3.new(2, 0.2, 0.2)
+part174.Parent = chair
+
+chair.Parent = map
+
+local table = Instance.new("Model")
+table.Name = "table"
+table.WorldPivot = CFrame.new(10.6998024, 2.99999022, 31.7999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+
+local union = Instance.new("UnionOperation")
+union.Name = "Union"
+union.Anchored = true
+union.BrickColor = BrickColor.new("Brown")
+union.CFrame = CFrame.new(8.69987106, 3.59998608, 34.3999519, 0.999996185, 0, 0, 0, 2.98022087e-08, 0.999996185, 0, -1, 2.98023224e-08)
+union.Color = Color3.fromRGB(124, 92, 70)
+union.Material = Enum.Material.Wood
+union.Orientation = Vector3.new(-89.8, 0, 0)
+union.Position = Vector3.new(8.7, 3.6, 34.4)
+union.Rotation = Vector3.new(-90, 0, 0)
+union.Size = Vector3.new(0.2, 1.6, 1.4)
+union.Parent = table
 
 local part175 = Instance.new("Part")
 part175.Name = "Part"
 part175.Anchored = true
 part175.BrickColor = BrickColor.new("Brown")
-part175.CFrame = CFrame.new(8.69979477, 2.89999104, 35.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part175.CFrame = CFrame.new(8.69979477, 2.89999104, 28.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
 part175.Color = Color3.fromRGB(124, 92, 70)
 part175.Material = Enum.Material.Wood
 part175.Orientation = Vector3.new(0, 90, 0)
-part175.Position = Vector3.new(8.7, 2.9, 35.3)
+part175.Position = Vector3.new(8.7, 2.9, 28.3)
 part175.Rotation = Vector3.new(0, 89.8, 0)
 part175.Size = Vector3.new(0.2, 2.8, 0.2)
 part175.Parent = table
 
-local union16 = Instance.new("UnionOperation")
-union16.Name = "Union"
-union16.Anchored = true
-union16.BrickColor = BrickColor.new("Brown")
-union16.CFrame = CFrame.new(12.6999016, 3.59998608, 29.1999626, -0.999996185, 0, 0, 0, 0, 0.999996185, 0, 1, 0)
-union16.Color = Color3.fromRGB(124, 92, 70)
-union16.Material = Enum.Material.Wood
-union16.Orientation = Vector3.new(-89.8, 0, 0)
-union16.Position = Vector3.new(12.7, 3.6, 29.2)
-union16.Rotation = Vector3.new(-90, 0, -180)
-union16.Size = Vector3.new(0.2, 1.6, 1.4)
-union16.Parent = table
+local union1 = Instance.new("UnionOperation")
+union1.Name = "Union"
+union1.Anchored = true
+union1.BrickColor = BrickColor.new("Brown")
+union1.CFrame = CFrame.new(12.6999016, 3.59998608, 34.3999519, 0.999996185, 0, 0, 0, 2.98022087e-08, 0.999996185, 0, -1, 2.98023224e-08)
+union1.Color = Color3.fromRGB(124, 92, 70)
+union1.Material = Enum.Material.Wood
+union1.Orientation = Vector3.new(-89.8, 0, 0)
+union1.Position = Vector3.new(12.7, 3.6, 34.4)
+union1.Rotation = Vector3.new(-90, 0, 0)
+union1.Size = Vector3.new(0.2, 1.6, 1.4)
+union1.Parent = table
+
+local part176 = Instance.new("Part")
+part176.Name = "Part"
+part176.Anchored = true
+part176.BrickColor = BrickColor.new("Brown")
+part176.CFrame = CFrame.new(12.6997795, 2.89999104, 35.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part176.Color = Color3.fromRGB(124, 92, 70)
+part176.Material = Enum.Material.Wood
+part176.Orientation = Vector3.new(0, 90, 0)
+part176.Position = Vector3.new(12.7, 2.9, 35.3)
+part176.Rotation = Vector3.new(0, 89.8, 0)
+part176.Size = Vector3.new(0.2, 2.8, 0.2)
+part176.Parent = table
+
+local part177 = Instance.new("Part")
+part177.Name = "Part"
+part177.Anchored = true
+part177.BrickColor = BrickColor.new("Brown")
+part177.CFrame = CFrame.new(12.6997795, 2.89999104, 28.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part177.Color = Color3.fromRGB(124, 92, 70)
+part177.Material = Enum.Material.Wood
+part177.Orientation = Vector3.new(0, 90, 0)
+part177.Position = Vector3.new(12.7, 2.9, 28.3)
+part177.Rotation = Vector3.new(0, 89.8, 0)
+part177.Size = Vector3.new(0.2, 2.8, 0.2)
+part177.Parent = table
+
+local union2 = Instance.new("UnionOperation")
+union2.Name = "Union"
+union2.Anchored = true
+union2.BrickColor = BrickColor.new("Brown")
+union2.CFrame = CFrame.new(8.69988632, 3.59998608, 29.1999626, -0.999996185, 0, 0, 0, 0, 0.999996185, 0, 1, 0)
+union2.Color = Color3.fromRGB(124, 92, 70)
+union2.Material = Enum.Material.Wood
+union2.Orientation = Vector3.new(-89.8, 0, 0)
+union2.Position = Vector3.new(8.7, 3.6, 29.2)
+union2.Rotation = Vector3.new(-90, 0, -180)
+union2.Size = Vector3.new(0.2, 1.6, 1.4)
+union2.Parent = table
+
+local part178 = Instance.new("Part")
+part178.Name = "Part"
+part178.Anchored = true
+part178.BottomSurface = Enum.SurfaceType.Smooth
+part178.BrickColor = BrickColor.new("Brown")
+part178.CFrame = CFrame.new(10.6998024, 4.39998102, 31.7999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part178.Color = Color3.fromRGB(124, 92, 70)
+part178.Material = Enum.Material.WoodPlanks
+part178.Orientation = Vector3.new(0, 90, 0)
+part178.Position = Vector3.new(10.7, 4.4, 31.8)
+part178.Rotation = Vector3.new(0, 89.8, 0)
+part178.Size = Vector3.new(7.6, 0.2, 4.6)
+part178.TopSurface = Enum.SurfaceType.Smooth
+part178.Parent = table
+
+local part179 = Instance.new("Part")
+part179.Name = "Part"
+part179.Anchored = true
+part179.BrickColor = BrickColor.new("Brown")
+part179.CFrame = CFrame.new(8.69979477, 2.89999104, 35.2999458, 0, 0, 0.999996185, 0, 0.999996185, 0, -1, 0, 0)
+part179.Color = Color3.fromRGB(124, 92, 70)
+part179.Material = Enum.Material.Wood
+part179.Orientation = Vector3.new(0, 90, 0)
+part179.Position = Vector3.new(8.7, 2.9, 35.3)
+part179.Rotation = Vector3.new(0, 89.8, 0)
+part179.Size = Vector3.new(0.2, 2.8, 0.2)
+part179.Parent = table
+
+local union3 = Instance.new("UnionOperation")
+union3.Name = "Union"
+union3.Anchored = true
+union3.BrickColor = BrickColor.new("Brown")
+union3.CFrame = CFrame.new(12.6999016, 3.59998608, 29.1999626, -0.999996185, 0, 0, 0, 0, 0.999996185, 0, 1, 0)
+union3.Color = Color3.fromRGB(124, 92, 70)
+union3.Material = Enum.Material.Wood
+union3.Orientation = Vector3.new(-89.8, 0, 0)
+union3.Position = Vector3.new(12.7, 3.6, 29.2)
+union3.Rotation = Vector3.new(-90, 0, -180)
+union3.Size = Vector3.new(0.2, 1.6, 1.4)
+union3.Parent = table
 
 table.Parent = map
+
+function pc()
+local monitor = Instance.new("Model")
+monitor.Name = "Monitor"
+monitor.WorldPivot = CFrame.new(10.0797939, 6.08650398, 31.2550087, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+
+local part = Instance.new("Part")
+part.Name = "Part"
+part.Anchored = true
+part.BottomSurface = Enum.SurfaceType.Smooth
+part.CFrame = CFrame.new(10.6414518, 4.9452467, 31.341341, 1.71364391e-07, -0.173745871, -0.98478663, 0, 0.984786689, -0.173745885, 1, 2.97740996e-08, 1.68758902e-07)
+part.Material = Enum.Material.Metal
+part.Orientation = Vector3.new(10, -90, 0)
+part.Position = Vector3.new(10.6, 4.95, 31.3)
+part.Rotation = Vector3.new(90, -80, 90)
+part.Size = Vector3.new(0.432, 0.839, 0.0864)
+part.TopSurface = Enum.SurfaceType.Smooth
+part.Parent = monitor
+
+local part1 = Instance.new("Part")
+part1.Name = "Part"
+part1.BottomSurface = Enum.SurfaceType.Smooth
+part1.CFrame = CFrame.new(10.0798035, 4.55613613, 31.3413429, 1.71364391e-07, 0, -0.999996126, 0, 0.999996185, 0, 1, 0, 1.71365173e-07)
+part1.Material = Enum.Material.Metal
+part1.Orientation = Vector3.new(0, -90, 0)
+part1.Position = Vector3.new(10.1, 4.56, 31.3)
+part1.Rotation = Vector3.new(0, -89.8, 0)
+part1.Size = Vector3.new(1.98, 0.112, 1.42)
+part1.TopSurface = Enum.SurfaceType.Smooth
+part1.Parent = monitor
+
+local screen = Instance.new("Part")
+screen.Name = "screen"
+screen.BottomSurface = Enum.SurfaceType.Smooth
+screen.CFrame = CFrame.new(10.5116434, 6.442204, 31.2550049, 1.71364391e-07, 0, -0.999996126, 0, 0.999996185, 0, 1, 0, 1.71365173e-07)
+screen.Material = Enum.Material.Metal
+screen.Orientation = Vector3.new(0, -90, 0)
+screen.Position = Vector3.new(10.5, 6.44, 31.3)
+screen.Rotation = Vector3.new(0, -89.8, 0)
+screen.Size = Vector3.new(3.97, 2.46, 0.0864)
+screen.TopSurface = Enum.SurfaceType.Smooth
+screen.Parent = monitor
+
+monitor.Parent = map
+end
+pc()
+
+map.Parent = workspace
